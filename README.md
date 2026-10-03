@@ -7,7 +7,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/DIMONZAV/rumarchy.git
+git clone https://github.com/PlampBear/rumarchy.git
 cd rumarchy
 ./install.sh
 ```
