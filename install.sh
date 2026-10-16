@@ -15,9 +15,6 @@
 
 set -euo pipefail
 
-HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-FILES="$HERE/files"
-
 KB_LAYOUT="${RU_KB_LAYOUT:-us,ru}"
 KB_OPTIONS="${RU_KB_OPTIONS:-grp:ctrl_shift_toggle,terminate:ctrl_alt_bksp}"
 SWITCH_KEY="${RU_SWITCH_KEY:-Ctrl+Shift}"
